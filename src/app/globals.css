@@ -113,7 +113,7 @@ header ul.navbar-nav li.nav-item a.nav-link:before {
   width: 0;
   height: 2px;
   background: #f36d45;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   position: absolute;
@@ -147,13 +147,14 @@ header ul.navbar-nav li.nav-item a.nav-link {
   white-space: nowrap;
   position: relative;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 header ul.navbar-nav li.nav-item a.nav-link:before {
   width: 0;
   height: 2px;
   background: #f36d45;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   position: absolute;
@@ -281,7 +282,7 @@ header ul.navbar-nav li.nav-item a.nav-link:hover:before {
 }
 
 .home-casestudies-head h2:before {
-  content: "";
+  content: '';
   width: 40px;
   height: 1.5px;
   border-radius: 2px;
@@ -389,11 +390,7 @@ header ul.navbar-nav li.nav-item a.nav-link:hover:before {
 */
 
 section#testimonials-section {
-  background: linear-gradient(
-    0deg,
-    #e7f1f7 0.03%,
-    rgba(222, 237, 247, 0) 76.24%
-  );
+  background: linear-gradient(0deg, #e7f1f7 0.03%, rgba(222, 237, 247, 0) 76.24%);
 }
 
 .testi-home-slider {
@@ -438,11 +435,7 @@ section#testimonials-section {
 
 .home-testimonials-cl-content-item {
   padding: 3px 65px 180px 71px;
-  background: linear-gradient(
-    0deg,
-    #dbedf8 0.03%,
-    rgba(222, 237, 247, 0) 76.24%
-  );
+  background: linear-gradient(0deg, #dbedf8 0.03%, rgba(222, 237, 247, 0) 76.24%);
   margin-top: 50px;
   /* min-height: 760px; */
 }
@@ -481,7 +474,7 @@ section#testimonials-section {
 .home-testimonials-cl-content-item a:before {
   width: 76px;
   height: 100%;
-  content: "";
+  content: '';
   background: #f36d45;
   position: absolute;
   right: 0;
@@ -577,8 +570,8 @@ section#testimonials-section {
   height: 85px;
   left: -13px;
   top: -34px;
-  content: "";
-  background: url("../assets/images/quote.svg");
+  content: '';
+  background: url('../assets/images/quote.svg');
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -1069,7 +1062,7 @@ button.btn.submit-btn {
 }
 
 .footer-col-cnt ul.footer-nav li a:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1503,9 +1496,7 @@ section#services-hero-section {
   color: white;
 }
 
-.casestudies-testimonials-canvas
-  .casestudies-testimonials-cnt-col
-  .casestudies-testi-aurthor {
+.casestudies-testimonials-canvas .casestudies-testimonials-cnt-col .casestudies-testi-aurthor {
   color: white;
 }
 
@@ -1539,7 +1530,7 @@ section#services-hero-section {
 }
 
 .casestudies-testimonials-cnt-col p:before {
-  content: "";
+  content: '';
   width: 50px;
   height: 1px;
   background: #b6b6b6;
@@ -1595,9 +1586,7 @@ button.btn.animated-btn {
   justify-content: center;
 }
 
-.casestudies-testimonials-canvas
-  .casestudies-testimonials-cnt-col
-  button.btn.animated-btn {
+.casestudies-testimonials-canvas .casestudies-testimonials-cnt-col button.btn.animated-btn {
   color: white !important;
 }
 
@@ -1608,10 +1597,7 @@ button.btn.animated-btn span {
   margin: 0;
 }
 
-.casestudies-testimonials-canvas
-  .casestudies-testimonials-cnt-col
-  button.btn.animated-btn
-  span {
+.casestudies-testimonials-canvas .casestudies-testimonials-cnt-col button.btn.animated-btn span {
   background: black;
 }
 
@@ -1626,7 +1612,7 @@ button.btn.animated-btn strong {
 button.btn.animated-btn strong:before {
   width: 0%;
   height: 100%;
-  content: "";
+  content: '';
   background: #f36d45;
   position: absolute;
   right: 0;
@@ -1635,10 +1621,7 @@ button.btn.animated-btn strong:before {
   transition: 0.3s ease-in-out;
 }
 
-.casestudies-testimonials-canvas
-  .casestudies-testimonials-cnt-col
-  button.btn.animated-btn
-  strong:before {
+.casestudies-testimonials-canvas .casestudies-testimonials-cnt-col button.btn.animated-btn strong:before {
   background: black !important;
 }
 
@@ -1656,7 +1639,7 @@ button.btn.animated-btn:hover strong:before {
 }
 
 .bg-image {
-  background: url("../assets/images/banner-3-scaled.webp");
+  background: url('../assets/images/banner-3-scaled.webp');
   height: 50vh;
 }
 
@@ -1706,7 +1689,7 @@ button.btn.animated-btn:hover strong:before {
 }
 
 .case-study-bg-image {
-  background: url("https://www.openxcell.com/wp-content/uploads/2023/09/banner-7.jpg");
+  background: url('https://www.openxcell.com/wp-content/uploads/2023/09/banner-7.jpg');
   /* background: url("http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPlanetCardHero.00490382.png&w=828&q=75"); */
   height: 40vh;
   margin-bottom: 30px;
@@ -1736,7 +1719,7 @@ button.btn.animated-btn:hover strong:before {
 
 .technologies-guiding-greennet-box::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 60%;
   left: -5.7%;
   top: -37%;
@@ -1795,7 +1778,7 @@ button.btn.animated-btn:hover strong:before {
 
 .case-study-banner::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   left: 37%;
   top: -37%;
@@ -1831,7 +1814,7 @@ section#service-work .container {
 }
 
 .service-work-left h2:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   height: 1px;
@@ -1902,7 +1885,7 @@ section#service-work .container {
 .service-work-right-item-img:before {
   right: -28px;
   top: -24px;
-  content: "";
+  content: '';
   width: 105px;
   height: 112px;
   position: absolute;
@@ -2596,10 +2579,7 @@ section#table-block-block-section {
   box-shadow: none;
 }
 
-.faq-accordions
-  .accordion-item
-  .accordion-header
-  .accordion-button:not(.collapsed) {
+.faq-accordions .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   color: #212529;
   background: transparent;
   box-shadow: none;
@@ -2628,13 +2608,7 @@ section#table-block-block-section {
   z-index: -1;
 }
 
-.faq-accordions
-  .accordion-item
-  .accordion-header
-  .accordion-button
-  span
-  em
-  img {
+.faq-accordions .accordion-item .accordion-header .accordion-button span em img {
   width: 16px;
 }
 
@@ -2961,7 +2935,7 @@ section#starup-hero-section {
 }
 
 section#starup-hero-section:before {
-  content: "";
+  content: '';
   width: 72%;
   position: absolute;
   right: 0;
@@ -3077,7 +3051,7 @@ section#startup-prdct-dev {
 }
 
 section#startup-prdct-dev:before {
-  content: "";
+  content: '';
   width: 100%;
   height: 72%;
   position: absolute;
@@ -3191,9 +3165,7 @@ section#process-block-section-area h2 {
     top: 118px;
   }
 
-  #process-block-section-area
-    .process-block-item:nth-child(1)
-    .process-block-item-in {
+  #process-block-section-area .process-block-item:nth-child(1) .process-block-item-in {
     flex-direction: column-reverse;
   }
 
@@ -3273,7 +3245,7 @@ section#services-we-offer {
 }
 
 section#services-we-offer:before {
-  content: "";
+  content: '';
   width: 943px;
   height: 943px;
   left: calc(50% - 471px);
@@ -3337,7 +3309,7 @@ section#startup-people {
 }
 
 section#startup-people:before {
-  content: "";
+  content: '';
   width: 62%;
   height: calc(100% - 250px);
   position: absolute;
@@ -3594,7 +3566,7 @@ section#startup-development {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
-  position: "fixed";
+  position: 'fixed';
   cursor: pointer;
 }
 
@@ -3647,7 +3619,7 @@ section#startup-development {
   height: 50px;
   border-radius: 5px 0px 0px 5px;
   transition: all 0.3s ease-in-out;
-  position: "fixed";
+  position: 'fixed';
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -3725,12 +3697,12 @@ section.our-partners.industry-expertise-home-page-sec h2.page-heading.center {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .show {
-  background-color: "red";
+  background-color: 'red';
 }
 .industry-expertise-full-width:after {
   height: 100%;
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   right: 0;
   width: 98%;
@@ -5513,7 +5485,7 @@ h2.title-industry-expe {
   overflow: hidden;
   width: 100%;
   height: 90vh;
-  background: url("../assets/images/main-1.png") no-repeat;
+  background: url('../assets/images/main-1.png') no-repeat;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -5523,7 +5495,7 @@ h2.title-industry-expe {
 /* Tablet Styles */
 @media (max-width: 1024px) {
   .main-section-bg-image {
-    background: url("../assets/images/main-1.png") no-repeat;
+    background: url('../assets/images/main-1.png') no-repeat;
     background-size: cover;
     background-position: top;
     height: 80vh;
@@ -5533,7 +5505,7 @@ h2.title-industry-expe {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .main-section-bg-image {
-    background: url("../assets/images/main-2.png") no-repeat;
+    background: url('../assets/images/main-2.png') no-repeat;
     background-size: cover;
     background-position: top;
     height: 80vh;
